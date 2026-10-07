@@ -1,0 +1,22 @@
+{
+    "name":  "sela-dump",
+    "version":  "1.0.0",
+    "private":  true,
+    "type":  "module",
+    "scripts":  {
+                    "dev":  "node scripts-dev.js",
+                    "build":  "vite build",
+                    "preview":  "vite preview",
+                    "start":  "node --experimental-sqlite server/index.js"
+                },
+    "dependencies":  {
+                         "@vitejs/plugin-react":  "latest",
+                         "vite":  "latest",
+                         "react":  "latest",
+                         "react-dom":  "latest",
+                         "lucide-react":  "^0.468.0"
+                     },
+    "devDependencies":  {
+
+                        }
+}

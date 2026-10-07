@@ -1,0 +1,6 @@
+.logout-button{border:0;background:none;color:var(--muted);font-size:10px;padding:7px 2px}
+.logout-button:hover,.auth-switch:hover{color:var(--accent)}
+.auth-modal .field-label+.field-label{margin-top:12px}
+.auth-switch{display:block;margin:12px auto 0;padding:4px;border:0;background:none;color:var(--muted);font-size:10px}
+.auth-note{line-height:1.5}
+@media(max-width:700px){.logout-button{font-size:9px;padding:5px 0}.auth-switch{font-size:9px}}
